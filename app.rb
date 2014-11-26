@@ -10,7 +10,7 @@ require 'sinatra'
    @people  = params[:people].to_i
    @mood  = params[:mood].to_i
 
-   @places= ['London Eye', 'Globe', 'Shordich']
+   @places= ['London Eye', 'Globe', 'Shoreditch']
 
 
    if (@people+ @mood) >= 10
@@ -20,7 +20,7 @@ require 'sinatra'
      erb :no_drink
      else
    	
-     erb :Shordich
+     erb :Shorditch
 
 
 
